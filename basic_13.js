@@ -166,3 +166,25 @@ function replaceNeg(arr){
 }
 
 console.log(replaceNeg([1,4,2,13,-11,2,-9]));
+
+function replaceNeg(arr){
+    var sum = 0;
+    for(var x = 0; arr.length>x; x++){
+        if(arr[x]<0){
+            arr[x] = 'What';
+        }
+    }
+    return arr;
+}
+
+console.log(replaceNeg([1,4,2,13,-11,2,-9]));
+
+function loop(arr){
+    var sum = 0;
+    for(var x = 0; arr.lengh>x; x++){
+        sum = sum + arr[x];
+    }
+    return arr;
+}
+
+console.log('here');
